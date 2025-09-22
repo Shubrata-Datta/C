@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    int a=5;
+    int *x=&a;
+    *x=223;
+    printf("%d\n",*x);
+    return 0;
+}
